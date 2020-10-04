@@ -40,7 +40,7 @@ machine_type = 'g1-small'
 
 cluster = container.Cluster(
     cluster_name,
-    initial_node_count=3,
+    initial_node_count=1,
     min_master_version='latest',
     node_version='latest',
     node_config={

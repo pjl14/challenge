@@ -1,0 +1,13 @@
+name: challenge_everis01
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: A minimal Google Cloud Python Pulumi program
+
+config:
+  gcp:credentials: /home/srojas/Everis/add/flowing-perigee-291406-950c8a368453.json
+  gcp:project: cicd-workshops
+  gcp:region: southamerica-east1
+  gcp:zone: southamerica-east1-a
+  gke:name: k8s
